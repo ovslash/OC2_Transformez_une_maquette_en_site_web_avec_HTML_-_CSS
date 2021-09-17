@@ -1,14 +1,43 @@
 Body {
   font-family: "Raleway", sans-serif;
 }
+
+ul {
+  list-style-type: none;
+}
+
 /* ------- HEADER ------ */
 Header {
   display: flex;
+  justify-content: space-between;
+}
+
+.logoreservia {
+  height: 35px;
 }
 
 .menu {
   display: flex;
 }
+
+.menu1 {
+  text-decoration: none;
+  color: black;
+  padding-top: 5px;
+  margin: 30px;
+}
+.menu1:hover {
+  color: #0065fc;
+  border-top: #0065fc solid 1px;
+}
+
+.menu2 {
+  text-decoration: none;
+  color: #0065fc;
+  font-weight: bold;
+  margin: 30px;
+}
+
 /* ------- Main ------ */
 form {
   display: flex;
@@ -47,6 +76,21 @@ button {
 
 .filtres {
   display: flex;
+  font-weight: bold;
+}
+
+.filtresdetails {
+  border-top: solid #f2f2f2 2px;
+  border-bottom: solid #f2f2f2 2px;
+  border-right: solid #f2f2f2 2px;
+  padding-right: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.logosfiltres {
+  color: #0065fc;
+  background-color: #deebff;
 }
 
 .menufiltres {
