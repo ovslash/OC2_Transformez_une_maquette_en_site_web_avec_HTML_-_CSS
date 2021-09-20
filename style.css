@@ -10,35 +10,58 @@ ul {
 Header {
   display: flex;
   justify-content: space-between;
+  margin-top: 35px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .logoreservia {
-  height: 35px;
+  height: 43px;
 }
 
 .menu {
   display: flex;
+  margin-top: 10px;
 }
 
 .menu1 {
   text-decoration: none;
   color: black;
-  padding-top: 5px;
-  margin: 30px;
+  padding-top: 42px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 25px;
 }
 .menu1:hover {
   color: #0065fc;
-  border-top: #0065fc solid 1px;
+  border-top: #0065fc solid 3px;
 }
 
 .menu2 {
   text-decoration: none;
   color: #0065fc;
   font-weight: bold;
-  margin: 30px;
+  padding: 25px;
 }
 
 /* ------- Main ------ */
+
+.recherche {
+  margin-left: 50px;
+}
+
+h1 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-top: 45px;
+  margin-bottom: 0px;
+}
+
+p {
+  margin-top: 5px;
+}
+
 form {
   display: flex;
 }
@@ -46,10 +69,13 @@ form {
 .logo_map {
   background-color: #f2f2f2;
   border-radius: 15px 0px 0px 15px;
-  /*height: 50px;*/
+  height: 50px;
   width: 50px;
   text-align: center;
-  padding-top: 15px;
+}
+
+.map {
+  margin-top: 15px;
 }
 
 input {
@@ -57,11 +83,13 @@ input {
   border-right: none;
   border-top: 1px solid #f2f2f2;
   border-bottom: 1px solid #f2f2f2;
-  height: 50px;
+
   width: 235px;
-  padding: 15px;
+
   font-family: "Raleway", sans-serif;
   font-weight: bold;
+  font-size: 1.1rem;
+  padding-left: 15px;
 }
 
 button {
@@ -69,14 +97,17 @@ button {
   background-color: #0065fc;
   border-radius: 0px 15px 15px 0px;
   border: none;
-  height: 50px;
+
   width: 133px;
   font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 1.1rem;
 }
 
 .filtres {
   display: flex;
   font-weight: bold;
+  align-items: center;
 }
 
 .filtresdetails {
@@ -86,11 +117,15 @@ button {
   padding-right: 10px;
   margin-left: 5px;
   margin-right: 5px;
+  font-size: 1.1rem;
+  height: 50px;
 }
 
 .logosfiltres {
   color: #0065fc;
   background-color: #deebff;
+  height: 50px;
+  width: 50px;
 }
 
 .menufiltres {
