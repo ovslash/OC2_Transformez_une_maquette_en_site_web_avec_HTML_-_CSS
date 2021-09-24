@@ -2,6 +2,12 @@ Body {
   font-family: "Raleway", sans-serif;
 }
 
+@media all and (max-width: 770px) {
+  body {
+    margin: 0px;
+  }
+}
+
 ul {
   list-style-type: none;
 }
@@ -15,14 +21,38 @@ Header {
   margin-left: 50px;
   margin-right: 50px;
 }
+/* -------- header - position verticale -------- */
+@media all and (max-width: 770px) {
+  Header {
+    display: inline-block;
+    margin: 0;
+    width: 100%;
+  }
+}
 
 .logoreservia {
   height: 43px;
 }
 
+@media all and (max-width: 770px) {
+  .logoreservia {
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+}
+
 .menu {
   display: flex;
   margin-top: 10px;
+}
+
+/* -------- menu - position verticale -------- */
+@media all and (max-width: 770px) {
+  .menu {
+    margin: 0px;
+    margin-top: 30px;
+    padding: 0px;
+  }
 }
 
 .menu1 {
@@ -33,9 +63,36 @@ Header {
   padding-right: 35px;
   padding-bottom: 25px;
 }
+
+@media all and (max-width: 770px) {
+  .test {
+    border-bottom: solid 2px #f2f2f2;
+    padding-bottom: 10px;
+    width: 50%;
+    text-align: center;
+  }
+  .test:hover {
+    color: #0065fc;
+    border-bottom: solid 2px #0065fc;
+  }
+}
+
 .menu1:hover {
   color: #0065fc;
   border-top: #0065fc solid 3px;
+}
+
+@media all and (max-width: 770px) {
+  .menu1:hover {
+    border-top: none;
+  }
+}
+
+@media all and (max-width: 770px) {
+  .test:hover {
+    color: #0065fc;
+    border-bottom: solid 2px #0065fc;
+  }
 }
 
 .menu2 {
@@ -44,6 +101,15 @@ Header {
   font-weight: bold;
   padding: 25px;
 }
+/* -------- menu2 - position verticale -------- */
+@media all and (max-width: 770px) {
+  .menu2 {
+    position: absolute;
+    top: 35px;
+    right: 0px;
+    padding: 0px 20px 0 20px;
+  }
+}
 
 /* ------- Main ------ */
 .blocrecherche {
@@ -51,6 +117,13 @@ Header {
 }
 .recherche {
   margin-left: 50px;
+}
+
+@media all and (max-width: 770px) {
+  .recherche {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }
 
 h1 {
@@ -99,11 +172,38 @@ button {
   background-color: #0065fc;
   border-radius: 0px 15px 15px 0px;
   border: none;
-
+  cursor: pointer;
   width: 133px;
   font-family: "Raleway", sans-serif;
   font-weight: bold;
   font-size: 1.1rem;
+}
+
+@media all and (max-width: 770px) {
+  button {
+    display: none;
+  }
+}
+
+.loupe {
+  display: none;
+}
+
+@media all and (max-width: 770px) {
+  .loupe {
+    display: block;
+    background-color: #0065fc;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    margin-left: -10px;
+    font-size: 1rem;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+  }
 }
 
 /* Filtres */
@@ -122,7 +222,7 @@ button {
   align-items: center;
   cursor: pointer;
   font-size: 1.1rem;
-  margin: 0 10px 0 10px;
+  margin: 0 10px 10px 10px;
 }
 
 .filtresdetails:hover {
@@ -152,6 +252,22 @@ button {
 
 .nomfiltre {
   padding: 0 15px 0 15px;
+}
+
+@media all and (max-width: 770px) {
+  .filtres {
+    display: block;
+    margin-top: 30px;
+  }
+
+  .menufiltres {
+    padding-left: 0px;
+  }
+  .filtresdetails {
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
 }
 
 /* Resultats*/
