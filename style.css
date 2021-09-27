@@ -1,5 +1,8 @@
 Body {
   font-family: "Raleway", sans-serif;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media all and (max-width: 770px) {
@@ -101,7 +104,7 @@ Header {
   font-weight: bold;
   padding: 25px;
 }
-/* -------- menu2 - position verticale -------- */
+/* -------- menu2 - largeur max 770px -------- */
 @media all and (max-width: 770px) {
   .menu2 {
     position: absolute;
@@ -290,7 +293,102 @@ button {
 
 .hebergements {
   display: flex;
+  margin-left: 50px;
+  margin-right: 50px;
+  justify-content: space-between;
 }
+
+.resultats_recherche {
+  background-color: #f2f2f2;
+  max-width: 880px;
+  border-radius: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 40px;
+  margin-right: 20px;
+  flex: 1;
+}
+
+.vignettes_hebergements {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+/*  --------- afficher plus ---------- */
+.plus {
+  padding-top: 10px;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.vignettes img {
+  height: 115px;
+}
+
+.vignettes {
+  background-color: white;
+  height: 190px;
+  border-radius: 15px;
+  flex: 1;
+  max-width: 250px;
+  border: solid white 5px;
+}
+.vignettes img {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+  object-fit: cover;
+}
+
+.details_vignettes_hebergements {
+  margin-left: 10px;
+}
+
+h3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 1rem;
+}
+
+.prix_nuit {
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+}
+
+.avis_hebergements {
+  font-size: 0.7rem;
+}
+
+/* --------- les plus populaires ------- */
+
+aside {
+  background-color: #f2f2f2;
+  border-radius: 15px;
+  width: 340px;
+  margin-left: 20px;
+  padding: 40px;
+}
+
+.titre_aside {
+  display: flex;
+  justify-content: space-between;
+}
+
+.titre_aside i {
+  margin-top: 40px;
+}
+
+.vignette_aside {
+  display: flex;
+}
+
+.vignette_aside img {
+  width: 100%;
+  border-radius: 15px 0 0 15px;
+}
+
 /* ------- Footer ------ */
 footer {
   display: flex;
