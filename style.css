@@ -298,15 +298,36 @@ button {
   justify-content: space-between;
 }
 
+@media all and (max-width: 770px) {
+  .hebergements {
+    margin-left: 0px;
+    margin-right: 0px;
+    flex-direction: column-reverse;
+  }
+}
+
 .resultats_recherche {
   background-color: #f2f2f2;
   max-width: 880px;
   border-radius: 15px;
   padding-left: 40px;
   padding-right: 40px;
-  padding-top: 40px;
+  padding-top: 0px;
   margin-right: 20px;
   flex: 1;
+}
+
+@media all and (max-width: 770px) {
+  .resultats_recherche {
+    background-color: white;
+    max-width: 880px;
+    border-radius: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    margin-right: 0px;
+    flex: auto;
+  }
 }
 
 .vignettes_hebergements {
@@ -315,6 +336,13 @@ button {
   justify-content: space-between;
   margin-top: 15px;
   margin-bottom: 30px;
+}
+
+@media all and (max-width: 770px) {
+  .vignettes_hebergements {
+    flex-direction: column;
+    margin-bottom: 0px;
+  }
 }
 
 /*  --------- afficher plus ---------- */
@@ -333,9 +361,18 @@ button {
   height: 190px;
   border-radius: 15px;
   flex: 1;
-  max-width: 250px;
+  max-width: 240px;
   border: solid white 5px;
+  box-shadow: 0 0 20px #0000002e;
 }
+
+@media all and (max-width: 770px) {
+  .vignettes {
+    max-width: none;
+    margin-bottom: 10px;
+  }
+}
+
 .vignettes img {
   width: 100%;
   border-radius: 15px 15px 0 0;
@@ -344,6 +381,7 @@ button {
 
 .details_vignettes_hebergements {
   margin-left: 10px;
+  margin-bottom: 5px;
 }
 
 h3 {
@@ -359,6 +397,11 @@ h3 {
 
 .avis_hebergements {
   font-size: 0.7rem;
+  color: #0065fc;
+}
+
+.etoile_grise {
+  color: #d9d9d9;
 }
 
 /* --------- les plus populaires ------- */
@@ -368,7 +411,19 @@ aside {
   border-radius: 15px;
   width: 340px;
   margin-left: 20px;
-  padding: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+@media all and (max-width: 770px) {
+  aside {
+    border-radius: 0px;
+    margin-left: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: auto;
+    padding-bottom: 20px;
+  }
 }
 
 .titre_aside {
@@ -377,7 +432,13 @@ aside {
 }
 
 .titre_aside i {
-  margin-top: 40px;
+  margin-top: 25px;
+  font-size: 1.3rem;
+}
+
+.contenu_aside {
+  display: flex;
+  flex-direction: column;
 }
 
 .vignette_aside {
@@ -386,6 +447,14 @@ aside {
   background-color: white;
   height: 130px;
   border-radius: 15px;
+  box-shadow: 0 0 20px #0000002e;
+  margin-bottom: 30px;
+}
+
+@media all and (max-width: 770px) {
+  .vignette_aside {
+    margin-bottom: 10px;
+  }
 }
 
 .vignette_aside img {
@@ -394,8 +463,27 @@ aside {
   object-fit: cover;
 }
 
-.vignette_aside .avis_hebergements {
-  padding-top: 50px;
+.vignette_aside .details_vignettes_hebergements {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* ------------- activités ------------------ */
+
+.activites {
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: yellowgreen;
+}
+
+.vignettes_activites {
+  display: flex;
+}
+
+.vignettes_activites_b {
+  display: flex;
+  flex-direction: column;
 }
 
 /* ------- Footer ------ */
