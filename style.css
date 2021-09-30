@@ -382,11 +382,20 @@ aside {
 
 .vignette_aside {
   display: flex;
+  border: solid white 5px;
+  background-color: white;
+  height: 130px;
+  border-radius: 15px;
 }
 
 .vignette_aside img {
-  width: 100%;
+  width: 130px;
   border-radius: 15px 0 0 15px;
+  object-fit: cover;
+}
+
+.vignette_aside .avis_hebergements {
+  padding-top: 50px;
 }
 
 /* ------- Footer ------ */
