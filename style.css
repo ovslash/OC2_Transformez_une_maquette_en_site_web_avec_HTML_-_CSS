@@ -143,6 +143,12 @@ p {
 form {
   display: flex;
 }
+/* --- centrer le bouton sur mobile --- */
+@media all and (max-width: 770px) {
+  form {
+    justify-content: center;
+  }
+}
 
 .logo_map {
   background-color: #f2f2f2;
@@ -472,8 +478,7 @@ aside {
 /* ------------- activités ------------------ */
 
 .activites {
-  margin-left: 50px;
-  margin-right: 50px;
+  margin: 50px;
 }
 
 .vignettes_activites {
@@ -503,7 +508,6 @@ aside {
   box-shadow: 0 0 20px #0000002e;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
 }
 
 .activites img {
@@ -513,12 +517,120 @@ aside {
   height: inherit;
 }
 
+.vignettes_activites_2 img {
+  height: initial;
+}
+
+.a2 {
+  height: 235px;
+  margin-bottom: 40px;
+}
+
+.a3 {
+  flex: auto;
+}
+
+.a3 img {
+  height: 126px;
+}
+
+.a2 img {
+  height: 100%;
+}
+
+.a5 {
+  margin-bottom: 40px;
+  height: 190px;
+}
+
+.a5 img {
+  height: 100%;
+}
+
+.a6 {
+  flex: auto;
+}
+
+.a6 img {
+  height: 170px;
+}
+
 .activites h3 {
   padding: 15px;
   margin: 0px;
 }
 
+@media all and (max-width: 770px) {
+  .activites {
+    margin: 20px;
+  }
+
+  .vignettes_activites {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .activites div {
+    width: auto;
+  }
+
+  .vignettes_activites_1 {
+    height: 190px;
+    margin-bottom: 15px;
+  }
+  .activites img {
+    height: 130px;
+  }
+
+  .vignettes_activites_1 {
+    justify-content: flex-start;
+  }
+
+  .a2 {
+    height: auto;
+    margin-bottom: 15px;
+    height: 190px;
+  }
+
+  .a3 {
+    margin-bottom: 15px;
+    height: 190px;
+  }
+
+  .a5 {
+    margin-bottom: 15px;
+    height: 190px;
+  }
+  .a6 {
+    height: 190px;
+  }
+}
+
 /* ------- Footer ------ */
 footer {
   display: flex;
+  padding: 50px;
+  background-color: #f2f2f2;
+}
+
+footer p {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer div {
+  flex: 1;
+}
+footer li {
+  margin-bottom: 7px;
+}
+
+@media all and (max-width: 770px) {
+  footer {
+    flex-direction: column;
+  }
 }
