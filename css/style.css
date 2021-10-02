@@ -147,6 +147,10 @@ form {
 @media all and (max-width: 770px) {
   form {
     justify-content: center;
+    width: 100%;
+  }
+  form input {
+    width: inherit;
   }
 }
 
@@ -288,8 +292,8 @@ button {
 .logoresultats {
   height: 25px;
   width: 25px;
-  border: solid 1px #d9d9d9;
-  border-radius: 100%;
+  /* border: solid 1px #d9d9d9;
+  border-radius: 100%; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -297,11 +301,26 @@ button {
   color: #0065fc;
 }
 
+.info {
+  border: solid 1px #d9d9d9;
+  border-radius: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 0.7rem;
+}
+
 .hebergements {
   display: flex;
   margin-left: 50px;
   margin-right: 50px;
   justify-content: space-between;
+}
+
+.hebergements a {
+  color: black;
+  text-decoration: none;
 }
 
 @media all and (max-width: 770px) {
@@ -348,14 +367,17 @@ button {
   .vignettes_hebergements {
     flex-direction: column;
     margin-bottom: 0px;
+    margin-top: 0px;
   }
 }
 
 /*  --------- afficher plus ---------- */
-.plus {
+.plus a {
+  text-decoration: none;
   padding-top: 10px;
   font-size: 1.1rem;
   font-weight: bold;
+  color: black;
 }
 
 .vignettes img {
@@ -383,6 +405,12 @@ button {
   width: 100%;
   border-radius: 15px 15px 0 0;
   object-fit: cover;
+}
+
+@media all and (max-width: 770px) {
+  .mob_fin {
+    margin-bottom: 30px;
+  }
 }
 
 .details_vignettes_hebergements {
@@ -479,6 +507,11 @@ aside {
 
 .activites {
   margin: 50px;
+}
+
+.activites a {
+  color: black;
+  text-decoration: none;
 }
 
 .vignettes_activites {
