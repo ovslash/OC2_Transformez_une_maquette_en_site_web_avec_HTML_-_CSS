@@ -571,7 +571,7 @@ aside {
 }
 
 .a2 img {
-  height: 100%;
+  height: 186px;
 }
 
 .a5 {
@@ -580,7 +580,7 @@ aside {
 }
 
 .a5 img {
-  height: 100%;
+  height: 141px;
 }
 
 .a6 {
@@ -620,25 +620,25 @@ aside {
 
   .vignettes_activites_1 {
     justify-content: flex-start;
+    height: 100%;
   }
 
   .a2 {
     height: auto;
     margin-bottom: 15px;
-    height: 190px;
   }
 
   .a3 {
     margin-bottom: 15px;
-    height: 190px;
+    /* height: 190px; */
   }
 
   .a5 {
     margin-bottom: 15px;
-    height: 190px;
+    /* height: 190px; */
   }
   .a6 {
-    height: 190px;
+    /* height: 190px; */
   }
 }
 
