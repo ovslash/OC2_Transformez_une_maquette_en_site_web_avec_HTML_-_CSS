@@ -150,7 +150,7 @@ form {
     width: 100%;
   }
   form input {
-    width: inherit;
+    flex: auto;
   }
 }
 
@@ -216,6 +216,9 @@ button {
     height: 50px;
     width: 50px;
     text-align: center;
+  }
+  .loupe i {
+    padding-top: 15px;
   }
 }
 
@@ -665,5 +668,6 @@ footer li {
 @media all and (max-width: 770px) {
   footer {
     flex-direction: column;
+    padding: 30px 20px 0 20px;
   }
 }
