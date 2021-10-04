@@ -326,7 +326,7 @@ button {
   text-decoration: none;
 }
 
-@media all and (max-width: 770px) {
+@media all and (max-width: 1140px) {
   .hebergements {
     margin-left: 0px;
     margin-right: 0px;
@@ -345,10 +345,10 @@ button {
   flex: 1;
 }
 
-@media all and (max-width: 770px) {
+@media all and (max-width: 1140px) {
   .resultats_recherche {
     background-color: white;
-    max-width: 880px;
+    max-width: 100%;
     border-radius: 0px;
     padding-left: 20px;
     padding-right: 20px;
@@ -389,18 +389,31 @@ button {
 
 .vignettes {
   background-color: white;
-  height: 190px;
+  /*height: 190px;*/ /* MODIF POUR ALLER VERS TABLETTE*/
   border-radius: 15px;
   flex: 1;
   max-width: 240px;
+  min-width: 160px; /* MODIF POUR ALLER VERS TABLETTE*/
   border: solid white 5px;
   box-shadow: 0 0 20px #0000002e;
 }
 
-@media all and (max-width: 770px) {
+.vignettes_milieu {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+@media all and (max-width: 1140px) {
   .vignettes {
     max-width: none;
     margin-bottom: 10px;
+  }
+}
+
+@media all and (max-width: 770px) {
+  .vignettes_milieu {
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }
 
@@ -446,13 +459,14 @@ h3 {
 aside {
   background-color: #f2f2f2;
   border-radius: 15px;
-  width: 340px;
+  /* width: 340px; */ /* MODIF POUR ALLER VERS TABLETTE*/
+  width: 26%; /* MODIF POUR ALLER VERS TABLETTE*/
   margin-left: 20px;
   padding-left: 40px;
   padding-right: 40px;
 }
 
-@media all and (max-width: 770px) {
+@media all and (max-width: 1140px) {
   aside {
     border-radius: 0px;
     margin-left: 0px;
