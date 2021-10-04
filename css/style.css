@@ -526,6 +526,13 @@ aside {
   margin: 50px;
 }
 
+@media all and (max-width: 1140px) {
+  .activites {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
 .activites a {
   color: black;
   text-decoration: none;
@@ -534,17 +541,37 @@ aside {
 .vignettes_activites {
   display: flex;
   justify-content: space-between;
-  height: 450px;
+  /* height: 450px; */
+}
+
+@media all and (max-width: 1140px) {
+  .vignettes_activites {
+    flex-wrap: wrap;
+  }
 }
 
 .vignettes_activites_a {
   width: 23%;
 }
 
+@media all and (max-width: 1140px) {
+  .vignettes_activites_a {
+    width: 49%;
+    margin-bottom: 20px;
+  }
+}
+
 .vignettes_activites_b {
   display: flex;
   flex-direction: column;
   width: 23%;
+}
+
+@media all and (max-width: 1140px) {
+  .vignettes_activites_b {
+    width: 49%;
+    margin-bottom: 20px;
+  }
 }
 
 .vignettes_activites_1 {
@@ -658,6 +685,14 @@ aside {
   }
   .a6 {
     /* height: 190px; */
+  }
+
+  .vignettes_activites_a {
+    margin-bottom: 0px;
+  }
+
+  .vignettes_activites_b {
+    margin-bottom: 0px;
   }
 }
 
