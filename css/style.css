@@ -537,13 +537,18 @@ aside {
   height: 450px;
 }
 
+.vignettes_activites_a {
+  width: 23%;
+}
+
 .vignettes_activites_b {
   display: flex;
   flex-direction: column;
+  width: 23%;
 }
 
 .vignettes_activites_1 {
-  width: 300px;
+  /* width: 300px; */
   height: 100%;
   border-radius: 1.5rem;
   box-shadow: 0 0 20px #0000002e;
@@ -553,7 +558,7 @@ aside {
 }
 
 .vignettes_activites_2 {
-  width: 300px;
+  /* width: 300px; */
   border-radius: 1.5rem;
   box-shadow: 0 0 20px #0000002e;
   display: flex;
