@@ -1,3 +1,6 @@
+/* point de rupture pour le passage vers la version mobile 770px */
+/* point de rupture pour le passage vers la version tablette 1140 */
+
 Body {
   font-family: "Raleway", sans-serif;
   max-width: 1440px;
