@@ -314,6 +314,10 @@ button {
   font-size: 0.7rem;
 }
 
+.titre_section {
+  display: none;
+}
+
 .hebergements {
   display: flex;
   margin-left: 50px;
@@ -500,6 +504,11 @@ aside {
   border-radius: 15px;
   box-shadow: 0 0 20px #0000002e;
   margin-bottom: 30px;
+}
+
+.vignette_aside a {
+  display: flex;
+  width: 100%;
 }
 
 @media all and (max-width: 770px) {
