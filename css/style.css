@@ -298,8 +298,6 @@ button {
 .logoresultats {
   height: 25px;
   width: 25px;
-  /* border: solid 1px #d9d9d9;
-  border-radius: 100%; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -396,12 +394,11 @@ button {
 
 .vignettes {
   background-color: white;
-  /*height: 190px;*/ /* MODIF POUR ALLER VERS TABLETTE*/
   border-radius: 15px;
   flex: 1;
   max-width: 240px;
-  min-width: 160px; /* MODIF POUR ALLER VERS TABLETTE*/
-  border: solid white 5px;
+  min-width: 160px;
+  border: solid #fffffe 5px;
   box-shadow: 0 0 20px #0000002e;
 }
 
@@ -466,8 +463,7 @@ h3 {
 aside {
   background-color: #f2f2f2;
   border-radius: 15px;
-  /* width: 340px; */ /* MODIF POUR ALLER VERS TABLETTE*/
-  width: 26%; /* MODIF POUR ALLER VERS TABLETTE*/
+  width: 26%;
   margin-left: 20px;
   padding-left: 40px;
   padding-right: 40px;
@@ -501,7 +497,7 @@ aside {
 
 .vignette_aside {
   display: flex;
-  border: solid white 5px;
+  border: solid #fffffe 5px;
   background-color: white;
   height: 130px;
   border-radius: 15px;
@@ -553,7 +549,6 @@ aside {
 .vignettes_activites {
   display: flex;
   justify-content: space-between;
-  /* height: 450px; */
 }
 
 @media all and (max-width: 1140px) {
@@ -587,7 +582,6 @@ aside {
 }
 
 .vignettes_activites_1 {
-  /* width: 300px; */
   height: 100%;
   border-radius: 1.5rem;
   box-shadow: 0 0 20px #0000002e;
@@ -597,7 +591,6 @@ aside {
 }
 
 .vignettes_activites_2 {
-  /* width: 300px; */
   border-radius: 1.5rem;
   box-shadow: 0 0 20px #0000002e;
   display: flex;
@@ -688,15 +681,10 @@ aside {
 
   .a3 {
     margin-bottom: 15px;
-    /* height: 190px; */
   }
 
   .a5 {
     margin-bottom: 15px;
-    /* height: 190px; */
-  }
-  .a6 {
-    /* height: 190px; */
   }
 
   .vignettes_activites_a {
