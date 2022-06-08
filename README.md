@@ -3,19 +3,21 @@
 
 ------------------
 
-<h2>Compétences évaluées</h2> 
+<h2>Informations générales</h2> 
 
-Implémenter une interface responsive <br />
-Intégrer du contenu conformément à une maquette<br />
+Projet 2 OPENCLASSROOMS - Formation Développeur Web
+
+But : Intégrer la maquette responsive (desktop, tablet, mobile) en HTML et CSS du site de réservation de vacances Reservia.
+
 
 ------------------
 
-<h2>Compétences évaluées</h2>
+<h2>Compétences développées</h2>
 
-- Utiliser un système de gestion de versions pour le suivi du projet et son hébergement<br />
-- Mettre en place son environnement Front-End<br />
-- Intégrer du contenu conformément à une maquette<br />
-- Implémenter une interface responsive<br />
+- Utiliser un système de gestion de versions pour le suivi du projet et son hébergement
+- Mettre en place son environnement Front-End
+- Intégrer du contenu conformément à une maquette
+- Implémenter une interface responsive
 
 ------------------
 
