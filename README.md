@@ -1,4 +1,3 @@
-
 <h1>Transformation d'une maquette en site web avec HTML & CSS</h1>
 
 ------------------
@@ -28,4 +27,6 @@ https://ovslash.github.io/OC2_Transformez_une_maquette_en_site_web_avec_HTML_-_C
 ------------------
 
 <h2>Maquettes fournies</h2>
+
+![Maquette Desk](https://user-images.githubusercontent.com/81557814/172581473-5d45a7b2-10e1-41e4-b6dd-748c88e5097f.png)![Maquette Mobile](https://user-images.githubusercontent.com/81557814/172581553-482c2958-f900-4c6a-a27c-2961c858694c.png)
 
