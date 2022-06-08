@@ -23,7 +23,7 @@ But : Intégrer la maquette responsive (desktop, tablet, mobile) en HTML et CSS 
 
 <h2>Site live</h2>
 
-https://ovslash.github.io/Transformez_une_maquette_en_site_web_avec_HTML_-_CSS/
+https://ovslash.github.io/OC2_Transformez_une_maquette_en_site_web_avec_HTML_-_CSS/
 
 ------------------
 
